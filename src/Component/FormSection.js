@@ -9,7 +9,7 @@ const FormSection = (props) => {
     setNewTask(taskName);
   };
   const handleClick = () => {
-    console.log(`The new task ${newTask}`);
+    //console.log(`The new task ${newTask}`);
     props.handleClick(newTask);
     setNewTask("");
     //what this above dos is that it update the new task to empty string

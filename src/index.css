@@ -25,6 +25,7 @@ body {
   min-width: 450px;
   min-height: 100px;
   border-radius: 10px;
+  padding: 20px;
 }
 
 .newtask {
@@ -59,6 +60,7 @@ body {
   cursor: pointer;
   border-radius: 5px;
   font-family: "Poppins", sans-serif;
+  padding: 9px 20px;
 }
 
 .tasks {
